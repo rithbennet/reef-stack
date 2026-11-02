@@ -1,0 +1,50 @@
+{
+  "name": "pstack-pi",
+  "version": "0.14.3-pi.1",
+  "description": "Portable pstack engineering workflows and Agent Skills for Pi, OMP, OpenCode, Claude Code, and Codex.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "agent-skills",
+    "pstack",
+    "coding-agent",
+    "developer-workflow",
+    "engineering-workflow",
+    "code-review",
+    "debugging",
+    "refactoring",
+    "tdd",
+    "verification",
+    "orchestration",
+    "claude-code",
+    "codex",
+    "opencode",
+    "omp",
+    "pi",
+    "workflow",
+    "subagents"
+  ],
+  "license": "MIT",
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "files": [
+    "skills",
+    "agents",
+    "scripts",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    ".claude-plugin",
+    ".codex-plugin",
+    "upstream.lock.json"
+  ],
+  "scripts": {
+    "verify": "node scripts/verify.mjs",
+    "test:sync": "node --test scripts/sync-upstream.test.mjs",
+    "sync:check": "node scripts/sync-upstream.mjs --check",
+    "sync:apply": "node scripts/sync-upstream.mjs --apply"
+  }
+}
