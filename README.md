@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo-512.png" width="128" alt="reef-stack logo: a pink coral on a stacked base"></p>
+
 # reef-stack
 
 My agent playbook, in progress. Right now it is research: what to take from Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/main/pstack), Matt Pocock's [skills](https://github.com/mattpocock/skills) and the harness I built for DagangNow.
